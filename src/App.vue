@@ -1,11 +1,28 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import NavComponent from '@/components/NavComponent.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <NavComponent></NavComponent>
+  <main>
+    <RouterView></RouterView>
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* Reset basique */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.page-content {
+  padding-top: 80px; /* Pour ne pas passer sous la nav fixe */
+  min-height: 100vh;
+}
+</style>
