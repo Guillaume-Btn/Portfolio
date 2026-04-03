@@ -6,9 +6,9 @@
     </div>
 
     <div class="pdf-container">
-      <object 
-        data="/Portfolio/CV.pdf#view=FitH&scrollbar=0&toolbar=0" 
-        type="application/pdf" 
+      <object
+        data="/Portfolio/CV.pdf#view=FitH&scrollbar=0&toolbar=0"
+        type="application/pdf"
         class="pdf-viewer"
       >
         <!-- Message si le navigateur ne marche pas pour le pdf -->
@@ -23,12 +23,18 @@
 
     <!-- Le bouton de téléchargement placé en dessous -->
     <div class="action-section">
-      <a 
-        href="/Portfolio/CV.pdf" 
-        download="CV - Guillaume BOUTON.pdf" 
-        class="btn-download"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <a href="/Portfolio/CV.pdf" download="CV - Guillaume BOUTON.pdf" class="btn-download">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
           <polyline points="7 10 12 15 17 10"></polyline>
           <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -75,7 +81,7 @@
   max-width: 700px;
   aspect-ratio: 210 / 297;
   height: auto;
-  
+
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);

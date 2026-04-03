@@ -4,10 +4,14 @@
   <nav>
     <RouterLink :to="{ name: 'home' }">Home</RouterLink>
     <RouterLink :to="{ name: 'projects' }">Projets</RouterLink>
+    <RouterLink :to="{ name: 'contact' }">Contact</RouterLink>
     <RouterLink :to="{ name: 'cv' }">CV</RouterLink>
   </nav>
 </template>
 <style scoped>
+template {
+  margin-bottom: 50px;
+}
 nav {
   position: fixed;
   top: 0;

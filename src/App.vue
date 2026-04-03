@@ -23,7 +23,7 @@ body {
 }
 
 .page-content {
-  padding-top: 70px; 
+  padding-top: 70px;
   min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;

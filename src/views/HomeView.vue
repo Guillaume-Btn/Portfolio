@@ -8,7 +8,9 @@
 
       <div class="actions">
         <router-link to="/projects" class="btn primary">Découvrir mes projets</router-link>
-        <a href="https://github.com/guillaume-btn" target="_blank" class="btn secondary">Mon GitHub</a>
+        <a href="https://github.com/guillaume-btn" target="_blank" class="btn secondary"
+          >Mon GitHub</a
+        >
       </div>
     </div>
   </div>
