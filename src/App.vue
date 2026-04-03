@@ -4,25 +4,28 @@ import NavComponent from '@/components/NavComponent.vue'
 
 <template>
   <NavComponent></NavComponent>
-  <main>
+  <main class="page-content">
     <RouterView></RouterView>
   </main>
 </template>
 
-<style scoped>
-/* Reset basique */
+<style>
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #1a1a1a;
   color: #ffffff;
 }
+
 .page-content {
-  padding-top: 80px; /* Pour ne pas passer sous la nav fixe */
+  padding-top: 70px; 
   min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 </style>
