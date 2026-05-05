@@ -6,6 +6,7 @@ import NavComponent from '@/components/NavComponent.vue'
   <NavComponent></NavComponent>
   <main class="page-content">
     <RouterView></RouterView>
+    <FooterComponent></FooterComponent>
   </main>
 </template>
 

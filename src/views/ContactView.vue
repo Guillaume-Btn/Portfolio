@@ -8,8 +8,8 @@
       <div class="contact-info">
         <h3>Informations de contact</h3>
         <p class="info-text">
-          Je suis actuellement à la recherche de nouvelles opportunités de développement,
-          d'alternance ou de collaboration sur des projets de jeux.
+          Je suis actuellement à la recherche d'une alternance à partir de septembre 2026
+           dans le cadre de ma 3e année de BUT informatique.
         </p>
         <div class="info-list">
           <a href="#" @click.prevent="copyEmail" class="info-item">
