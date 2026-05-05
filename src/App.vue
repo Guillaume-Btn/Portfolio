@@ -3,11 +3,13 @@ import NavComponent from '@/components/NavComponent.vue'
 </script>
 
 <template>
-  <NavComponent></NavComponent>
-  <main class="page-content">
-    <RouterView></RouterView>
+  <div class="app-wrapper">
+    <NavComponent></NavComponent>
+    <main class="page-content">
+      <RouterView></RouterView>
+    </main>
     <FooterComponent></FooterComponent>
-  </main>
+  </div>
 </template>
 
 <style>
@@ -17,16 +19,22 @@ import NavComponent from '@/components/NavComponent.vue'
   padding: 0;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #1a1a1a;
-  color: #ffffff;
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Prend au moins toute la hauteur de l'écran */
 }
 
 .page-content {
   padding-top: 70px;
-  min-height: 100vh;
+  flex-grow: 1; /* Le contenu principal "pousse" le footer vers le bas si la page est courte */
   padding-left: 20px;
   padding-right: 20px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
 }
 </style>
