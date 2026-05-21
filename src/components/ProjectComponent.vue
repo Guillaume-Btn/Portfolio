@@ -5,12 +5,29 @@ defineProps({
     required: true,
   },
 })
+
+// Fonction pour attribuer une couleur CSS spécifique selon le contexte
+const getContextClass = (context: string) => {
+  if (!context) return 'context-default'
+  
+  const ctx = context.toLowerCase()
+  if (ctx === 'stage') return 'context-stage'
+  if (ctx === 'universitaire') return 'context-uni'
+  if (ctx === 'personnel') return 'context-perso'
+  
+  return 'context-default'
+}
 </script>
 
 <template>
   <div class="project-card">
     <div class="card-header">
-      <h3 class="title">{{ project.title }}</h3>
+      <div class="title-container">
+        <h3 class="title">{{ project.title }}</h3>
+        <span class="context-badge" :class="getContextClass(project.context)">
+          {{ project.context }}
+        </span>
+      </div>
       <span class="date">{{ project.date }}</span>
     </div>
 
@@ -28,6 +45,7 @@ defineProps({
   </div>
 </template>
 
+
 <style scoped>
 .project-card {
   background-color: #2a2a2a;
@@ -40,6 +58,38 @@ defineProps({
     box-shadow 0.2s;
   border: 1px solid #3a3a3a;
   height: 100%;
+}
+.context-badge {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Couleurs spécifiques par contexte */
+.context-stage {
+  background-color: rgba(66, 184, 131, 0.15);
+  color: #42b883; /* Vert Vue.js */
+  border: 1px solid rgba(66, 184, 131, 0.3);
+}
+
+.context-uni {
+  background-color: rgba(97, 175, 239, 0.15);
+  color: #61afef; /* Bleu pastel */
+  border: 1px solid rgba(97, 175, 239, 0.3);
+}
+
+.context-perso {
+  background-color: rgba(198, 120, 221, 0.15);
+  color: #c678dd; /* Violet pastel */
+  border: 1px solid rgba(198, 120, 221, 0.3);
+}
+
+.context-default {
+  background-color: #333;
+  color: #aaa;
 }
 
 .project-card:hover {
@@ -99,6 +149,13 @@ defineProps({
   border-radius: 6px;
   font-size: 0.8rem;
   border: 1px solid #333;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
 }
 
 .github-link:hover {
