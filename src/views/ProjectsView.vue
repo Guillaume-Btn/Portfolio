@@ -6,34 +6,56 @@ const myProjects: Project[] = [
     id: 1,
     title: 'Projet de Mod Minecraft',
     date: '09/2025 - Actuel',
+    context: 'Personnel',
     description:
       "Développement complet d'une extension de jeu intégrant de nouveaux blocs, des entités animées avec des modèles personnalisés et de nouvelles mécaniques de jeu complexes (systèmes multiblocs).",
     technologies: ['Java', 'NeoForge', 'Blockbench', 'JSON', 'Datagen'],
   },
   {
     id: 2,
+    title: 'ScanYAD',
+    date: '04/2026 - 05/2026',
+    context: 'Stage',
+    description:
+      "Migration d'une application Android professionnelle vers .NET 8 (MAUI) destinée aux terminaux industriels (scanners). Refonte de l'interface utilisateur pour la saisie d'inventaires, gestion de la synchronisation de données et débogage intensif des processus métiers de scan.",
+    technologies: ['C#', '.NET MAUI', 'XAML', 'Android', 'Datalogic SDK'],
+  },
+  {
+    id: 3,
+    title: 'ToolYAD',
+    date: '04/2026 - 04/2026',
+    context: 'Stage',
+    description:
+      "Application logicielle de bureau (Desktop) destinée à la gestion des utilisateurs et au traitement des données ERP (Import/Export). Création d'une interface utilisateur moderne avec Siticone UI et gestion de la sauvegarde via des fichiers JSON et XML.",
+    technologies: ['C#', 'Windows Forms', 'Siticone UI', 'JSON/XML', 'Figma'],
+  },
+  {
+    id: 4,
     title: 'Deckalé',
     date: '09/2025 - 03/2026',
+    context: 'Universitaire',
     description:
       "Logiciel de jeu de cartes à collectionner et à jouer. Conception globale du projet, rédaction du cahier des charges et développement complet de l'interface et de la logique de jeu.",
     technologies: ['Java', 'JavaSwing', 'Figma', 'SQL'],
   },
   {
-    id: 3,
+    id: 5,
     title: 'Optimisez vos lumières',
     date: '03/2025 - 07/2025',
+    context: 'Universitaire',
     description:
       "Logiciel algorithmique de calcul et de visualisation de trajets sur une carte interactive. Intégration d'un système permettant d'estimer et d'afficher les temps de parcours.",
     technologies: ['Java', 'JavaSwing', 'Figma', 'Algorithmique'],
   },
   {
-    id: 4,
+    id: 6,
     title: 'Annuaire numérique en C',
     date: '11/2024 - 01/2025',
+    context: 'Universitaire',
     description:
       "Application console performante permettant la gestion complète d'un annuaire numérique. L'accès, la modification et la persistance des données sont gérés via la lecture et l'écriture de fichiers CSV.",
     technologies: ['C', 'Fichiers CSV', 'Gestion de la mémoire'],
-  },
+  }
 ]
 </script>
 <template>
