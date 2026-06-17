@@ -13,20 +13,20 @@ const myProjects: Project[] = [
   },
   {
     id: 2,
-    title: 'ScanYAD',
+    title: 'ScanYad',
     date: '04/2026 - 05/2026',
     context: 'Stage',
     description:
-      "Migration d'une application Android professionnelle vers .NET 8 (MAUI) destinée aux terminaux industriels (scanners). Refonte de l'interface utilisateur pour la saisie d'inventaires, gestion de la synchronisation de données et débogage intensif des processus métiers de scan.",
+       "Migration d’une application Android professionnelle de Xamarin vers .NET MAUI (.NET 8) pour terminaux de scan industriels. Refonte de l’interface utilisateur, optimisation du processus d’inventaire et mise en place de mécanismes de fiabilisation des données (brouillons locaux, synchronisation différée, gestion hors ligne).",
     technologies: ['C#', '.NET MAUI', 'XAML', 'Android', 'Datalogic SDK'],
   },
   {
     id: 3,
-    title: 'ToolYAD',
+    title: 'ToolYad',
     date: '04/2026 - 04/2026',
     context: 'Stage',
     description:
-      "Application logicielle de bureau (Desktop) destinée à la gestion des utilisateurs et au traitement des données ERP (Import/Export). Création d'une interface utilisateur moderne avec Siticone UI et gestion de la sauvegarde via des fichiers JSON et XML.",
+      "Refonte de l’interface d’une application bureautique de gestion d’import/export liée à l’écosystème Sage. Conception de maquettes, développement sous Windows Forms avec Siticone UI, et mise en place d’un système d’authentification, de rôles et de permissions avec sauvegarde en JSON/XML.",
     technologies: ['C#', 'Windows Forms', 'Siticone UI', 'JSON/XML', 'Figma'],
   },
   {
