@@ -88,7 +88,7 @@ const getContextClass = (context: string) => {
 
 .context-uni {
   background-color: rgba(97, 175, 239, 0.15);
-  color: #61afef; 
+  color: #460aa5; 
   border: 1px solid rgba(97, 175, 239, 0.3);
 }
 
