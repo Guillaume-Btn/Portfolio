@@ -16,14 +16,14 @@
             Passionné par la création de logiciels et le développement web, mon parcours m'a permis d'acquérir une solide base en algorithmique, en programmation orientée objet et en conception d'interfaces. J'ai pu mettre ces compétences en pratique lors de mon récent stage en développement C# chez YAD Informatique.
           </p>
           <div class="objective-box">
-            <strong>🎯 Objectif :</strong> Je suis activement à la recherche d'une <strong>alternance en développement informatique</strong> pour l'année 2026-2027, dans le cadre de ma troisième et dernière année de BUT.
+            <strong>Objectif :</strong> Je suis activement à la recherche d'une <strong>alternance en développement informatique</strong> pour l'année 2026-2027, dans le cadre de ma troisième et dernière année de BUT.
           </div>
         </div>
       </div>
 
       <div class="timeline-section">
         <div class="timeline-column card-style">
-          <h3>🎓 Formation</h3>
+          <h3>Formation</h3>
           <div class="timeline-item">
             <span class="timeline-date">2024 - Maintenant</span>
             <h4>BUT Informatique</h4>
@@ -37,10 +37,10 @@
         </div>
 
         <div class="timeline-column card-style">
-          <h3>💼 Expériences</h3>
+          <h3>Expériences</h3>
           <div class="timeline-item">
             <span class="timeline-date">03/2026 - 05/2026</span>
-            <h4>Stage en Développement C#</h4>
+            <h4>Stage en Développement C# / .NET</h4>
             <p>YAD Informatique</p>
           </div>
           <div class="timeline-item">
@@ -56,7 +56,7 @@
         </div>
       </div>
 
-      <div class="skills-section">
+       <div class="skills-section">
         <h3>Mes Compétences</h3>
         <div class="skills-grid">
           
@@ -66,9 +66,10 @@
               <h4>Développement Logiciel</h4>
             </div>
             <div class="tech-tags">
+              <span class="tech-tag">C# / .NET 8</span>
+              <span class="tech-tag">.NET MAUI</span>
+              <span class="tech-tag">Windows Forms</span>
               <span class="tech-tag">Java</span>
-              <span class="tech-tag">Kotlin</span>
-              <span class="tech-tag">C / C#</span>
               <span class="tech-tag">Python</span>
               <span class="tech-tag">POO</span>
             </div>
@@ -90,12 +91,12 @@
           <div class="skill-category card-style">
             <div class="category-header">
               <span class="icon">🗄️</span>
-              <h4>Bases de données</h4>
+              <h4>Données & BDD</h4>
             </div>
             <div class="tech-tags">
-              <span class="tech-tag">SQL</span>
-              <span class="tech-tag">PL/SQL</span>
+              <span class="tech-tag">SQL / PL-SQL</span>
               <span class="tech-tag">NoSQL</span>
+              <span class="tech-tag">JSON / XML / CSV</span>
               <span class="tech-tag">Conception BDD</span>
             </div>
           </div>
@@ -106,9 +107,10 @@
               <h4>Outils & Logiciels</h4>
             </div>
             <div class="tech-tags">
+              <span class="tech-tag">Visual Studio / VS Code / NetBeans / IntelliJ IDEA</span>
               <span class="tech-tag">Git / GitHub / GitLab</span>
+              <span class="tech-tag">Figma (UI/UX)</span>
               <span class="tech-tag">Docker / VmWare</span>
-              <span class="tech-tag">VS Code / NetBeans</span>
               <span class="tech-tag">Power BI</span>
             </div>
           </div>
@@ -119,20 +121,17 @@
         <h3>Loisirs & Centres d'intérêt</h3>
         <div class="hobbies-grid">
           <div class="hobby-item">
-            <span class="hobby-icon">✈️</span>
             <div>
               <strong>Voyages :</strong> Inde, Japon, Islande.<br/>
               <span class="hobby-sub">Séjour linguistique (Vinehall, Angleterre) - Anglais B1.</span>
             </div>
           </div>
           <div class="hobby-item">
-            <span class="hobby-icon">🧗‍♂️</span>
             <div>
               <strong>Sport :</strong> Escalade de bloc (8 ans), Volley-Ball (3 ans, FFSU).
             </div>
           </div>
           <div class="hobby-item">
-            <span class="hobby-icon">🎮</span>
             <div>
               <strong>Occupations :</strong> Jeux vidéo, lecture et visionnage de mangas.
             </div>
@@ -330,11 +329,6 @@
   align-items: flex-start;
   gap: 15px;
   color: #e0e0e0;
-}
-
-.hobby-icon {
-  font-size: 1.5rem;
-  line-height: 1;
 }
 
 .hobby-sub {
