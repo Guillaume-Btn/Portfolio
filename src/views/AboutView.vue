@@ -39,6 +39,11 @@
         <div class="timeline-column card-style">
           <h3>Expériences</h3>
           <div class="timeline-item">
+            <span class="timeline-date">07/2026</span>
+            <h4>Auxiliaire</h4>
+            <p>Direction régionnal des finances publicques</p>
+          </div>
+          <div class="timeline-item">
             <span class="timeline-date">03/2026 - 05/2026</span>
             <h4>Stage en Développement C# / .NET</h4>
             <p>YAD Informatique</p>
