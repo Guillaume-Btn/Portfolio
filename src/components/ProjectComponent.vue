@@ -45,6 +45,16 @@ const getContextClass = (context: string) => {
           {{ tech }}
         </span>
       </div>
+      
+      <div v-if="project.butSkills && project.butSkills.length > 0" class="but-skills-container">
+        <span class="skills-label">Compétences BUT :</span>
+        <div class="skills-list">
+          <span v-for="(skill, index) in project.butSkills" :key="index" class="skill-pill" :title="skill.level">
+            {{ skill.name }}
+            <span class="skill-level-badge">{{ skill.level.replace('Niveau ', 'N') }}</span>
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -70,7 +80,6 @@ const getContextClass = (context: string) => {
   letter-spacing: 0.5px;
 }
 
-/* Couleurs spécifiques par contexte */
 .context-stage {
   background-color: rgba(66, 184, 131, 0.15);
   color: orange;
@@ -79,13 +88,13 @@ const getContextClass = (context: string) => {
 
 .context-uni {
   background-color: rgba(97, 175, 239, 0.15);
-  color: #61afef;
+  color: #61afef; 
   border: 1px solid rgba(97, 175, 239, 0.3);
 }
 
 .context-perso {
   background-color: rgba(198, 120, 221, 0.15);
-  color: #c678dd;
+  color: #c678dd; 
   border: 1px solid rgba(198, 120, 221, 0.3);
 }
 
@@ -126,7 +135,6 @@ const getContextClass = (context: string) => {
   margin-bottom: 20px;
 }
 
-/* Nouveau style pour l'affichage de l'équipe */
 .team-info {
   display: flex;
   align-items: center;
@@ -175,7 +183,47 @@ const getContextClass = (context: string) => {
   align-items: flex-start;
 }
 
-.github-link:hover {
-  text-decoration: underline;
+.but-skills-container {
+  margin-top: 5px;
+  padding-top: 15px;
+  border-top: 1px dashed #3a3a3a;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skills-label {
+  font-size: 0.8rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(97, 175, 239, 0.1);
+  color: #61afef; /* Bleu pour se démarquer des technos */
+  border: 1px solid rgba(97, 175, 239, 0.3);
+  padding: 2px 4px 2px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.skill-level-badge {
+  background-color: #61afef;
+  color: #1a1a1a;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 0.65rem;
+  font-weight: bold;
 }
 </style>

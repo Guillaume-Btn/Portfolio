@@ -6,4 +6,6 @@ export interface Project {
   team:string
   description: string
   technologies: string[]
+  butSkills?: { name: string; level: string }[];
+
 }

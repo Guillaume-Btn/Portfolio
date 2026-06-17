@@ -8,9 +8,12 @@ const myProjects: Project[] = [
     date: '09/2025 - Actuel',
     context: 'Personnel',
     team: "Code réalisé seul, aide parfois reçu pour les textures",
-    description:
-      "Développement complet d'une extension de jeu intégrant de nouveaux blocs, des entités animées avec des modèles personnalisés et de nouvelles mécaniques de jeu complexes (systèmes multiblocs).",
+    description: "Développement complet d'une extension de jeu intégrant de nouveaux blocs, des entités animées avec des modèles personnalisés et de nouvelles mécaniques de jeu complexes (systèmes multiblocs).",
     technologies: ['Java', 'NeoForge', 'Blockbench', 'JSON', 'Datagen'],
+    butSkills: [
+      { name: "Réaliser", level: "Niveau 2" },
+      { name: "Optimiser", level: "Niveau 2" }
+    ]
   },
   {
     id: 2,
@@ -18,9 +21,13 @@ const myProjects: Project[] = [
     date: '04/2026 - 05/2026',
     context: 'Stage',
     team: "Travail réalisé seul",
-    description:
-       "Migration d’une application Android professionnelle de Xamarin vers .NET MAUI (.NET 8) pour terminaux de scan industriels. Refonte de l’interface utilisateur, optimisation du processus d’inventaire et mise en place de mécanismes de fiabilisation des données (brouillons locaux, synchronisation différée, gestion hors ligne).",
+    description: "Migration d’une application Android professionnelle de Xamarin vers .NET MAUI (.NET 8) pour terminaux de scan industriels. Refonte de l’interface utilisateur, optimisation du processus d’inventaire et mise en place de mécanismes de fiabilisation des données (brouillons locaux, synchronisation différée, gestion hors ligne).",
     technologies: ['C#', '.NET MAUI', 'XAML', 'Android', 'Datalogic SDK'],
+    butSkills: [
+      { name: "Réaliser", level: "Niveau 3" },
+      { name: "Optimiser", level: "Niveau 2" },
+      { name: "Gérer", level: "Niveau 2" }
+    ]
   },
   {
     id: 3,
@@ -28,9 +35,13 @@ const myProjects: Project[] = [
     date: '04/2026 - 04/2026',
     context: 'Stage',
     team: "Travail réalisé seul",
-    description:
-      "Refonte de l’interface d’une application bureautique de gestion d’import/export liée à l’écosystème Sage. Conception de maquettes, développement sous Windows Forms avec Siticone UI, et mise en place d’un système d’authentification, de rôles et de permissions avec sauvegarde en JSON/XML.",
+    description: "Refonte de l’interface d’une application bureautique de gestion d’import/export liée à l’écosystème Sage. Conception de maquettes, développement sous Windows Forms avec Siticone UI, et mise en place d’un système d’authentification, de rôles et de permissions avec sauvegarde en JSON/XML.",
     technologies: ['C#', 'Windows Forms', 'Siticone UI', 'JSON/XML', 'Figma'],
+    butSkills: [
+      { name: "Réaliser", level: "Niveau 3" },
+      { name: "Gérer", level: "Niveau 2" },
+      { name: "Collaborer", level: "Niveau 2" }
+    ]
   },
   {
     id: 4,
@@ -38,9 +49,13 @@ const myProjects: Project[] = [
     date: '09/2025 - 03/2026',
     context: 'Universitaire',
     team: "Travail réalisé par 4 personnes",
-    description:
-      "Logiciel de jeu de cartes à collectionner et à jouer. Conception globale du projet, rédaction du cahier des charges et développement complet de l'interface et de la logique de jeu.",
+    description: "Logiciel de jeu de cartes à collectionner et à jouer. Conception globale du projet, rédaction du cahier des charges et développement complet de l'interface et de la logique de jeu.",
     technologies: ['Java', 'JavaSwing', 'Figma', 'SQL'],
+    butSkills: [
+      { name: "Réaliser", level: "Niveau 2" },
+      { name: "Gérer", level: "Niveau 2" },
+      { name: "Collaborer", level: "Niveau 2" }
+    ]
   },
   {
     id: 5,
@@ -48,9 +63,13 @@ const myProjects: Project[] = [
     date: '03/2025 - 07/2025',
     context: 'Universitaire',
     team: "Travail réalisé par 3 personnes",
-    description:
-      "Logiciel algorithmique de calcul et de visualisation de trajets sur une carte interactive. Intégration d'un système permettant d'estimer et d'afficher les temps de parcours.",
+    description: "Logiciel algorithmique de calcul et de visualisation de trajets sur une carte interactive. Intégration d'un système permettant d'estimer et d'afficher les temps de parcours.",
     technologies: ['Java', 'JavaSwing', 'Figma', 'Algorithmique'],
+    butSkills: [
+      { name: "Réaliser", level: "Niveau 2" },
+      { name: "Optimiser", level: "Niveau 2" },
+      { name: "Collaborer", level: "Niveau 1" }
+    ]
   },
   {
     id: 6,
@@ -58,9 +77,12 @@ const myProjects: Project[] = [
     date: '11/2024 - 01/2025',
     context: 'Universitaire',
     team: "Travail réalisé par 2 personnes",
-    description:
-      "Application console performante permettant la gestion complète d'un annuaire numérique. L'accès, la modification et la persistance des données sont gérés via la lecture et l'écriture de fichiers CSV.",
+    description: "Application console performante permettant la gestion complète d'un annuaire numérique. L'accès, la modification et la persistance des données sont gérés via la lecture et l'écriture de fichiers CSV.",
     technologies: ['C', 'Fichiers CSV', 'Gestion de la mémoire'],
+    butSkills: [
+      { name: "Réaliser", level: "Niveau 1" },
+      { name: "Gérer", level: "Niveau 1" }
+    ]
   }
 ]
 </script>
