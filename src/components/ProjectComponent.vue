@@ -80,22 +80,27 @@ const getContextClass = (context: string) => {
   letter-spacing: 0.5px;
 }
 
+/* Couleurs spécifiques par contexte - Plus lisibles et uniques */
+
+/* Stage : Vert Vue.js */
 .context-stage {
   background-color: rgba(66, 184, 131, 0.15);
-  color: orange;
+  color: #42b883; 
   border: 1px solid rgba(66, 184, 131, 0.3);
 }
 
+/* Universitaire : Bleu clair */
 .context-uni {
-  background-color: rgba(97, 175, 239, 0.15);
-  color: #460aa5; 
-  border: 1px solid rgba(97, 175, 239, 0.3);
+  background-color: rgba(88, 166, 255, 0.15);
+  color: #58a6ff; 
+  border: 1px solid rgba(88, 166, 255, 0.3);
 }
 
+/* Personnel : Orange doux */
 .context-perso {
-  background-color: rgba(198, 120, 221, 0.15);
-  color: #c678dd; 
-  border: 1px solid rgba(198, 120, 221, 0.3);
+  background-color: rgba(227, 169, 90, 0.15);
+  color: #e3a95a; 
+  border: 1px solid rgba(227, 169, 90, 0.3);
 }
 
 .context-default {
@@ -208,9 +213,10 @@ const getContextClass = (context: string) => {
 .skill-pill {
   display: inline-flex;
   align-items: center;
-  background-color: rgba(97, 175, 239, 0.1);
-  color: #61afef; /* Bleu pour se démarquer des technos */
-  border: 1px solid rgba(97, 175, 239, 0.3);
+  /* J'ai changé la couleur ici en jaune clair/sable pour éviter d'utiliser le même bleu que "Universitaire" */
+  background-color: rgba(229, 192, 123, 0.1);
+  color: #e5c07b; 
+  border: 1px solid rgba(229, 192, 123, 0.3);
   padding: 2px 4px 2px 10px;
   border-radius: 12px;
   font-size: 0.75rem;
@@ -218,7 +224,7 @@ const getContextClass = (context: string) => {
 }
 
 .skill-level-badge {
-  background-color: #61afef;
+  background-color: #e5c07b;
   color: #1a1a1a;
   margin-left: 6px;
   padding: 1px 6px;
