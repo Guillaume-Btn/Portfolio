@@ -13,7 +13,7 @@
             Âgé de 19 ans et basé à Lyon, je suis actuellement en fin de deuxième année de <strong>BUT Informatique à l'Université Lyon 1 (Site DOUA)</strong>. 
           </p>
           <p>
-            Passionné par la création de logiciels et le développement web, mon parcours m'a permis d'acquérir une solide base en algorithmique, en programmation orientée objet et en conception d'interfaces. J'ai pu mettre ces compétences en pratique lors de mon récent stage en développement C# chez YAD Informatique.
+            Voulant travailler dans la création de logiciels et le développement web, mon parcours m'a permis d'acquérir une solide base en algorithmique, en programmation orientée objet et en conception d'interfaces. J'ai pu mettre ces compétences en pratique lors de mon récent stage en développement C# chez YAD Informatique.
           </p>
           <div class="objective-box">
             <strong>Objectif :</strong> Je suis activement à la recherche d'une <strong>alternance en développement informatique</strong> pour l'année 2026-2027, dans le cadre de ma troisième et dernière année de BUT.
