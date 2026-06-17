@@ -2,82 +2,144 @@
   <div class="about-page">
     <div class="header-section">
       <h1>À Propos de <span class="highlight">Moi</span></h1>
-      <p>Étudiant en BUT Informatique passionné par le développement logiciel et les interfaces utilisateur.</p>
+      <p>Étudiant en BUT Informatique (Lyon 1) en recherche d'alternance pour 2026-2027.</p>
     </div>
 
     <div class="about-content">
-      <!-- Section Présentation -->
       <div class="profile-section card-style">
         <div class="profile-text">
-          <h3>Mon Parcours</h3>
+          <h3>Mon Profil</h3>
           <p>
-            Actuellement en fin de deuxième année de <strong>BUT Informatique</strong>, je me spécialise dans le développement d'applications logicielles et web. Mon parcours universitaire m'a permis d'acquérir une solide base algorithmique et méthodologique, que j'ai pu mettre en pratique lors de mon récent stage en entreprise.
+            Âgé de 19 ans et basé à Lyon, je suis actuellement en fin de deuxième année de <strong>BUT Informatique à l'Université Lyon 1 (Site DOUA)</strong>. 
           </p>
           <p>
-            Passionné par la création d'outils performants et intuitifs, j'apprécie particulièrement travailler sur l'ergonomie (UI/UX) et l'optimisation du code, que ce soit pour des logiciels métiers professionnels (C#, .NET MAUI, WinForms) ou des projets de développement de jeux vidéo (Java, Mods Minecraft).
+            Passionné par la création de logiciels et le développement web, mon parcours m'a permis d'acquérir une solide base en algorithmique, en programmation orientée objet et en conception d'interfaces. J'ai pu mettre ces compétences en pratique lors de mon récent stage en développement C# chez YAD Informatique.
           </p>
-          <p>
-            <strong>Objectif professionnel :</strong> Je suis actuellement à la recherche de nouvelles opportunités (alternance ou premier emploi) pour poursuivre mon évolution dans le développement full-stack ou logiciel.
-          </p>
-          <div class="personal-interests">
-            <span class="interest-badge">🏐 Volley-ball (FFSU)</span>
-            <span class="interest-badge">🎮 Développement de jeux</span>
-            <span class="interest-badge">🧩 UI/UX Design</span>
+          <div class="objective-box">
+            <strong>🎯 Objectif :</strong> Je suis activement à la recherche d'une <strong>alternance en développement informatique</strong> pour l'année 2026-2027, dans le cadre de ma troisième et dernière année de BUT.
           </div>
         </div>
       </div>
 
-      <!-- Section Compétences Techniques -->
+      <div class="timeline-section">
+        <div class="timeline-column card-style">
+          <h3>🎓 Formation</h3>
+          <div class="timeline-item">
+            <span class="timeline-date">2024 - Maintenant</span>
+            <h4>BUT Informatique</h4>
+            <p>Université Lyon 1 - Site DOUA</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">2021 - 2024</span>
+            <h4>Baccalauréat Général (Mention Bien)</h4>
+            <p>Lycée Ampère (Lyon 2)<br/>Spécialités : NSI (Numérique et Sciences Informatiques) et Mathématiques.</p>
+          </div>
+        </div>
+
+        <div class="timeline-column card-style">
+          <h3>💼 Expériences</h3>
+          <div class="timeline-item">
+            <span class="timeline-date">03/2026 - 05/2026</span>
+            <h4>Stage en Développement C#</h4>
+            <p>YAD Informatique</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">Été 2025</span>
+            <h4>Opérateur Magasinier</h4>
+            <p>LEMTECH</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">2022</span>
+            <h4>Service National Universel (SNU)</h4>
+            <p>Séjour de cohésion (2 semaines) et 80h de bénévolat à la Ferme Pédagogique de Charly.</p>
+          </div>
+        </div>
+      </div>
+
       <div class="skills-section">
-        <h3>Mes Compétences Techniques</h3>
-        
+        <h3>Mes Compétences</h3>
         <div class="skills-grid">
-          <!-- Langages -->
+          
           <div class="skill-category card-style">
             <div class="category-header">
               <span class="icon">💻</span>
-              <h4>Langages</h4>
+              <h4>Développement Logiciel</h4>
             </div>
             <div class="tech-tags">
               <span class="tech-tag">Java</span>
-              <span class="tech-tag">C#</span>
-              <span class="tech-tag">C</span>
-              <span class="tech-tag">JavaScript / TS</span>
-              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">Kotlin</span>
+              <span class="tech-tag">C / C#</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">POO</span>
             </div>
           </div>
 
-          <!-- Frameworks & Technologies -->
           <div class="skill-category card-style">
             <div class="category-header">
-              <span class="icon">⚡</span>
-              <h4>Frameworks & Tech</h4>
+              <span class="icon">🌐</span>
+              <h4>Développement Web</h4>
             </div>
             <div class="tech-tags">
+              <span class="tech-tag">HTML / CSS</span>
+              <span class="tech-tag">JavaScript</span>
               <span class="tech-tag">Vue.js</span>
-              <span class="tech-tag">.NET MAUI</span>
-              <span class="tech-tag">Windows Forms</span>
-              <span class="tech-tag">JavaSwing</span>
-              <span class="tech-tag">NeoForge</span>
+              <span class="tech-tag">PHP / Symfony</span>
             </div>
           </div>
 
-          <!-- Outils & Méthodes -->
+          <div class="skill-category card-style">
+            <div class="category-header">
+              <span class="icon">🗄️</span>
+              <h4>Bases de données</h4>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">PL/SQL</span>
+              <span class="tech-tag">NoSQL</span>
+              <span class="tech-tag">Conception BDD</span>
+            </div>
+          </div>
+
           <div class="skill-category card-style">
             <div class="category-header">
               <span class="icon">🛠️</span>
-              <h4>Outils & Méthodes</h4>
+              <h4>Outils & Logiciels</h4>
             </div>
             <div class="tech-tags">
-              <span class="tech-tag">Git / GitHub</span>
-              <span class="tech-tag">Figma</span>
-              <span class="tech-tag">Visual Studio</span>
-              <span class="tech-tag">Traitement JSON/XML</span>
-              <span class="tech-tag">Design UI/UX</span>
+              <span class="tech-tag">Git / GitHub / GitLab</span>
+              <span class="tech-tag">Docker / VmWare</span>
+              <span class="tech-tag">VS Code / NetBeans</span>
+              <span class="tech-tag">Power BI</span>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="hobbies-section card-style">
+        <h3>Loisirs & Centres d'intérêt</h3>
+        <div class="hobbies-grid">
+          <div class="hobby-item">
+            <span class="hobby-icon">✈️</span>
+            <div>
+              <strong>Voyages :</strong> Inde, Japon, Islande.<br/>
+              <span class="hobby-sub">Séjour linguistique (Vinehall, Angleterre) - Anglais B1.</span>
+            </div>
+          </div>
+          <div class="hobby-item">
+            <span class="hobby-icon">🧗‍♂️</span>
+            <div>
+              <strong>Sport :</strong> Escalade de bloc (8 ans), Volley-Ball (3 ans, FFSU).
+            </div>
+          </div>
+          <div class="hobby-item">
+            <span class="hobby-icon">🎮</span>
+            <div>
+              <strong>Occupations :</strong> Jeux vidéo, lecture et visionnage de mangas.
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
@@ -122,7 +184,7 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Profil */
+/* Profil & Objectif */
 .profile-section h3 {
   font-size: 1.5rem;
   color: #ffffff;
@@ -140,20 +202,59 @@
   color: #e0e0e0;
 }
 
-.personal-interests {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 25px;
+.objective-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(66, 184, 131, 0.1);
+  border-left: 4px solid #42b883;
+  border-radius: 4px;
+  color: #e0e0e0;
+  font-size: 1.05rem;
 }
 
-.interest-badge {
-  background-color: rgba(66, 184, 131, 0.1);
-  color: #42b883;
-  padding: 6px 12px;
-  border-radius: 20px;
+/* Timeline (Formation & Expérience) */
+.timeline-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.timeline-column h3 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #3a3a3a;
+  padding-bottom: 10px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 15px;
+  border-left: 2px solid #42b883;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-date {
   font-size: 0.85rem;
-  border: 1px solid rgba(66, 184, 131, 0.3);
+  color: #42b883;
+  font-weight: bold;
+}
+
+.timeline-item h4 {
+  color: #e0e0e0;
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+.timeline-item p {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.4;
 }
 
 /* Compétences */
@@ -166,7 +267,7 @@
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
 
@@ -186,7 +287,7 @@
 .category-header h4 {
   color: #e0e0e0;
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .tech-tags {
@@ -200,7 +301,7 @@
   color: #d0d0d0;
   padding: 6px 12px;
   border-radius: 6px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   border: 1px solid #333;
   transition: all 0.2s ease;
 }
@@ -211,13 +312,39 @@
   transform: translateY(-2px);
 }
 
+/* Loisirs */
+.hobbies-section h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.hobbies-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hobby-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  color: #e0e0e0;
+}
+
+.hobby-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.hobby-sub {
+  font-size: 0.85rem;
+  color: #a0a0a0;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
-  .profile-section {
-    padding: 20px;
-  }
-  
-  .skills-grid {
+  .timeline-section {
     grid-template-columns: 1fr;
   }
 }
