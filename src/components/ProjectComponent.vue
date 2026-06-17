@@ -32,6 +32,16 @@ const getContextClass = (context: string) => {
     </div>
 
     <div class="card-body">
+      <div v-if="project.team" class="team-info">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="team-icon">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+        </svg>
+        <span>{{ project.team }}</span>
+      </div>
+      
       <p class="description">{{ project.description }}</p>
     </div>
 
@@ -45,7 +55,6 @@ const getContextClass = (context: string) => {
   </div>
 </template>
 
-
 <style scoped>
 .project-card {
   background-color: #2a2a2a;
@@ -53,12 +62,11 @@ const getContextClass = (context: string) => {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
   border: 1px solid #3a3a3a;
   height: 100%;
 }
+
 .context-badge {
   font-size: 0.75rem;
   font-weight: bold;
@@ -77,13 +85,13 @@ const getContextClass = (context: string) => {
 
 .context-uni {
   background-color: rgba(97, 175, 239, 0.15);
-  color: #61afef; /* Bleu pastel */
+  color: #61afef;
   border: 1px solid rgba(97, 175, 239, 0.3);
 }
 
 .context-perso {
   background-color: rgba(198, 120, 221, 0.15);
-  color: #c678dd; /* Violet pastel */
+  color: #c678dd;
   border: 1px solid rgba(198, 120, 221, 0.3);
 }
 
@@ -122,6 +130,21 @@ const getContextClass = (context: string) => {
 .card-body {
   flex-grow: 1;
   margin-bottom: 20px;
+}
+
+/* Nouveau style pour l'affichage de l'équipe */
+.team-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+.team-icon {
+  color: #888;
 }
 
 .description {

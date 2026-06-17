@@ -3,6 +3,7 @@ export interface Project {
   title: string
   date: string
   context: string
+  team:string
   description: string
   technologies: string[]
 }
