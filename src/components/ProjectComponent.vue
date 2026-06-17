@@ -71,7 +71,7 @@ const getContextClass = (context: string) => {
 /* Couleurs spécifiques par contexte */
 .context-stage {
   background-color: rgba(66, 184, 131, 0.15);
-  color: #42b883; /* Vert Vue.js */
+  color: orange;
   border: 1px solid rgba(66, 184, 131, 0.3);
 }
 
