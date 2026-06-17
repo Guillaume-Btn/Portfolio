@@ -85,7 +85,7 @@ const getContextClass = (context: string) => {
 /* Stage : Vert Vue.js */
 .context-stage {
   background-color: rgba(66, 184, 131, 0.15);
-  color: #42b883; 
+  color: #e986e9; 
   border: 1px solid rgba(66, 184, 131, 0.3);
 }
 
@@ -213,7 +213,6 @@ const getContextClass = (context: string) => {
 .skill-pill {
   display: inline-flex;
   align-items: center;
-  /* J'ai changé la couleur ici en jaune clair/sable pour éviter d'utiliser le même bleu que "Universitaire" */
   background-color: rgba(229, 192, 123, 0.1);
   color: #e5c07b; 
   border: 1px solid rgba(229, 192, 123, 0.3);
