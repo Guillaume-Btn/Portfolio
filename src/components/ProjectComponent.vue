@@ -84,9 +84,9 @@ const getContextClass = (context: string) => {
 
 /* Stage : Vert Vue.js */
 .context-stage {
-  background-color: rgba(66, 184, 131, 0.15);
+  background-color: rgba(233, 134, 233, 0.15);
   color: #e986e9; 
-  border: 1px solid rgba(66, 184, 131, 0.3);
+  border: 1px solid rgba(233, 134, 233, 0.3);
 }
 
 /* Universitaire : Bleu clair */
