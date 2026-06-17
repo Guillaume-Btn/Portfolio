@@ -2,6 +2,7 @@ import ContactView from '@/views/ContactView.vue'
 import CvView from '@/views/CvView.vue'
 import HomeView from '@/views/HomeView.vue'
 import ProjectsView from '@/views/ProjectsView.vue'
+import AboutView from '@/views/AboutView.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 const router = createRouter({
@@ -27,6 +28,11 @@ const router = createRouter({
       name: 'contact',
       component: ContactView,
     },
+    {
+      path: '/about',
+      name: 'about',
+      component: AboutView,
+    }
   ],
 })
 

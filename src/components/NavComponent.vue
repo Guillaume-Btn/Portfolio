@@ -6,6 +6,7 @@
     <RouterLink :to="{ name: 'projects' }">Projets</RouterLink>
     <RouterLink :to="{ name: 'contact' }">Contact</RouterLink>
     <RouterLink :to="{ name: 'cv' }">CV</RouterLink>
+    <RouterLink :to="{ name: 'about' }">À propos</RouterLink>
   </nav>
 </template>
 <style scoped>
