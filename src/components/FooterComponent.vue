@@ -4,6 +4,7 @@
       <div class="footer-left">
         <span class="copyright">Guillaume Bouton étudiant en BUT Informatique</span>
         <span class="tech-stack">Développé avec <span class="vue-color">Vue.js</span></span>
+        <span class="tech-stack">Dernière mise à jour du site 17/06/2026</span>
       </div>
       
       <div class="footer-right">
