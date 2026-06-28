@@ -21,7 +21,7 @@ const myProjects: Project[] = [
     date: '04/2026 - 05/2026',
     context: 'Stage',
     team: "Travail réalisé seul",
-    description: "Migration d’une application Android professionnelle de Xamarin vers .NET MAUI (.NET 8) pour terminaux de scan industriels. Refonte de l’interface utilisateur, optimisation du processus d’inventaire et mise en place de mécanismes de fiabilisation des données (brouillons locaux, synchronisation différée, gestion hors ligne).",
+    description: "Migration d’une application Android professionnelle de Xamarin vers .NET MAUI (.NET 8) pour terminaux de scan industriels. Refonte de l’interface utilisateur, développement du processus d’inventaire et mise en place de mécanismes de fiabilisation des données (brouillons locaux, synchronisation différée, gestion hors ligne).",
     technologies: ['C#', '.NET MAUI', 'XAML', 'Android', 'Datalogic SDK'],
     butSkills: [
       { name: "Réaliser", level: "Niveau 3" },
