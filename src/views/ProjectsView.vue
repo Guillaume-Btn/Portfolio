@@ -17,8 +17,8 @@ const myProjects: Project[] = [  {
   },
   {  
     id: 1,
-    title: 'Projet de Mod Minecraft',
-    date: '09/2025 - Actuel',
+    title: 'Topazium, Mod Minecraft',
+    date: '09/2025 - 06/2026', // car projet en pause pour l'instant
     context: 'Personnel',
     team: "Code réalisé seul, aide parfois reçu pour les textures",
     description: "Développement complet d'une extension de jeu intégrant de nouveaux blocs, des entités animées avec des modèles personnalisés et de nouvelles mécaniques de jeu complexes (systèmes multiblocs).",
