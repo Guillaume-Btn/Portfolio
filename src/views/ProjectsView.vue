@@ -2,19 +2,30 @@
 import type { Project } from '@/models/projectModel'
 import ProjectComponent from '@/components/ProjectComponent.vue'
 const myProjects: Project[] = [  {
-    id: 7,
-    title: 'Trackora',
-    date: '08/2026 - 08/2026',
-    context: 'Personnel',
-    team: "Travail réalisé seul",
-    description: "Développement d'une application mobile multiplateforme de suivi de contenus culturels (séries, films, jeux vidéo, mangas). Intégration de multiples API REST (TMDb, RAWG, AniList), système d'importation des données de Trakt et architecture de sauvegarde cloud asynchrone via GitHub Gist et couplée à un système de cache local pour optimiser les performances.",
-    technologies: ['Kotlin', 'Jetpack Compose', 'KMP', 'Android', 'API REST', 'GitHub Gist'],
-    butSkills: [
-      { name: "Réaliser", level: "Niveau 3" }, // Conception from scratch d'une app complexe avec KMP
-      { name: "Gérer", level: "Niveau 3" }, // Manipulation et fusion de données issues de multiples API (TMDb, RAWG, AniList) + stockage Gist
-      { name: "Optimiser", level: "Niveau 2" } // Mise en place d'un cache local pour réduire les temps de chargement
-    ]
-  },
+  id: 7,
+  title: 'Trackora',
+  date: '08/2026 - 08/2026',
+  context: 'Personnel',
+  team: 'Travail réalisé seul',
+  description:
+    "Développement d'une application multiplateforme de suivi de contenus culturels (séries, films, jeux vidéo et mangas). Intégration d'API REST, authentification GitHub, sauvegarde des profils dans Supabase et déploiement d'une version web installable via Cloudflare Pages. Lien vers le site web : <a href='https://trackora.pages.dev/' target='_blank'>https://trackora.pages.dev/</a>",
+  technologies: [
+    'Kotlin',
+    'Kotlin Multiplatform',
+    'Jetpack Compose',
+    'Compose Multiplatform',
+    'Supabase',
+    'API REST',
+    'TMDb',
+    'RAWG',
+    'Cloudflare Pages',
+  ],
+  butSkills: [
+    { name: 'Réaliser', level: 'Niveau 3' },
+    { name: 'Gérer', level: 'Niveau 3' },
+    { name: 'Optimiser', level: 'Niveau 2' },
+  ],
+},
   {  
     id: 1,
     title: 'Topazium, Mod Minecraft',
