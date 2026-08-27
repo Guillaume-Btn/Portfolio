@@ -8,7 +8,7 @@ const myProjects: Project[] = [  {
   context: 'Personnel',
   team: 'Travail réalisé seul',
   description:
-    "Développement d'une application multiplateforme de suivi de contenus culturels (séries, films, jeux vidéo et mangas). Intégration d'API REST, authentification GitHub, sauvegarde des profils dans Supabase et déploiement d'une version web installable via Cloudflare Pages. Lien vers le site web : <a href='https://trackora.pages.dev/' target='_blank'>https://trackora.pages.dev/</a>",
+    "Développement d'une application multiplateforme de suivi de contenus culturels (séries, films, jeux vidéo et mangas). Intégration d'API REST, authentification GitHub, sauvegarde des profils dans Supabase et déploiement d'une version web installable via Cloudflare Pages.\nLien vers le site web : <a href='https://trackora-app.pages.dev/' target='_blank'>https://trackora-app.pages.dev/</a>",
   technologies: [
     'Kotlin',
     'Kotlin Multiplatform',
