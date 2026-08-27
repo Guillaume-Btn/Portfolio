@@ -36,7 +36,7 @@ const getContextClass = (context: string) => {
         <span>{{ project.team }}</span>
       </div>
       
-      <p class="description">{{ project.description }}</p>
+<p class="description" v-html="project.description"></p>
     </div>
 
     <div class="card-footer">
@@ -230,5 +230,17 @@ const getContextClass = (context: string) => {
   border-radius: 10px;
   font-size: 0.65rem;
   font-weight: bold;
+}
+
+.description :deep(a) {
+  color: #42b883;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.description :deep(a:hover) {
+  color: #79d6ad;
 }
 </style>
